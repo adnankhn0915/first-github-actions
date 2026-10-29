@@ -2,7 +2,7 @@
 def addition(a,b):
     return a+b
 
-def addition_test():
+def test_additions():
     assert addition(2,3) == 5
     assert addition(-1,1) == 0
     assert addition(0,0) == 0
